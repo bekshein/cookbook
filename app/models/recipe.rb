@@ -1,7 +1,7 @@
 class Recipe < ActiveRecord::Base
-  
-  has_many :directions
-  has_many :ingredients
+
+  has_many :directions, dependent: :destroy
+  has_many :ingredients, dependent: :destroy
 
   # cocoon gem usage
   accepts_nested_attributes_for :directions, reject_if: :all_blank, allow_destroy: true
