@@ -32,6 +32,9 @@ gem 'simple_form', '~> 3.2'
 # Use for bootstrap styling
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.5.1'
 
+# Use Paperclip to manage file attachments and uploading
+gem 'paperclip', '~> 4.3'
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 
