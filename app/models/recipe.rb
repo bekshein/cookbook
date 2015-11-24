@@ -3,6 +3,9 @@ class Recipe < ActiveRecord::Base
   has_many :directions
   has_many :ingredients
 
+  # cocoon gem usage
+  accepts_nested_attributes_for :directions, reject_if: :all_blank, allow_destroy: true
+  accepts_nested_attributes_for :ingredients, reject_if: :all_blank, allow_destroy: true
 
   validates :title, :description, :image, presence: true
 
