@@ -44,6 +44,8 @@ gem 'aws-sdk', '~> 2.2', '>= 2.2.3'
 # Use for authentication
 gem 'devise', '~> 3.5', '>= 3.5.2'
 
+gem 'rails_12factor', '~> 0.0.3'
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 
