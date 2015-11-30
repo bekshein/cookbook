@@ -39,7 +39,7 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.5.1'
 gem 'paperclip', '~> 4.3'
 
 # Use to store to aws
-gem 'aws-sdk', '~> 2.2', '>= 2.2.3'
+gem 'aws-sdk', '< 2.0'
 
 # Use for authentication
 gem 'devise', '~> 3.5', '>= 3.5.2'
