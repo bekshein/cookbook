@@ -38,6 +38,9 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.5.1'
 # Use Paperclip to manage file attachments and uploading
 gem 'paperclip', '~> 4.3'
 
+# Use for authentication
+gem 'devise', '~> 3.5', '>= 3.5.2'
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 
