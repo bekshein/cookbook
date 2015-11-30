@@ -1,5 +1,7 @@
 class Recipe < ActiveRecord::Base
 
+  belongs_to :user
+
   has_many :directions, dependent: :destroy
   has_many :ingredients, dependent: :destroy
 
